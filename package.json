@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start -p 8080",
+    "serve": "next build && next start -p 8080",
     "start": "next start"
   },
   "dependencies": {
