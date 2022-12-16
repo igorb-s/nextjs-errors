@@ -9,7 +9,7 @@ export const ErrorComponent = ({ book }) => {
           src={book.src}
           width={320}
           height={320}
-          layout="responsive"
+          layout="fixed"
           alt="sdkjsdksj"
         />
       </div>
